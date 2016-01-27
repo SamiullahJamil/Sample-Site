@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 120% auto;
+    background-attachment: fixed;
+}
+body.bgchange1 {
+    background-image: url('images/bg1.png');
+}
+body.bgchange2 {
+    background-image: url('images/bg2.jpg');
+}
+.navbar {
+    border-radius: 0;
+    border-width: 0px;
+    outline-width: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Maven Pro',arial;
+    color: white;
+    transition: color 1s ease 0s, background-color 0.3s ease 0s;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    background-color: White;
+    color: Black;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+    background-color: rgba(132, 132, 132, 0.66);
+    cursor: default;
+    font-family: 'Maven Pro',Arial;
+}
+.item {
+     max-height: 500px;
+}
+.navbar-inverse .navbar-nav>li>.navactive {
+    background-color: white;
+    color: black;
+    cursor: default;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-toggle {
+    border-radius: 0px;
+}
+.mydivider {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
+.dividerleft {
+    float: left;
+    display: block;
+    height: 100%;
+    width: 10px;
+    background-color: black;
+}
+.dividerright {
+    float: right;
+    display: block;
+    height: 100%;
+    width: 10px;
+    background-color: black;
+}
+.section {
+    padding: 40px 40px 40px 40px;
+    display: block;
+}
+.section h1 {
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Russo One', Arial, sans-serif;
+    padding-bottom: 40px;
+}
+.section h3 {
+    text-align: center;
+    font-family: 'Maven Pro', arial;
+}
+.section1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border: 10px solid white;
+}
+.section1 .sectionBox {
+    background-color: black;
+    color: white;
+}
+.sectionBox {
+    padding: 30px 30px 30px 30px;
+}
+.section1 .row h3 {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 0;
+}
+.section2 {
+    background-color: black;
+    color: white;
+}
+.section2 .sectionBox {
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+.section2 .sectionBox h6 {
+    text-align: center;
+}
+.section2 img {
+    width: 100%;
+}
+.section3 {
+    background-color: white;
+    color: black;
+}
+.section3 img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section4 {
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+}
+.section4 .sponsor {
+    display: block;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.myfooter {
+    background-color: #222222;
+    color: white;
+}
